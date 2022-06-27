@@ -1,0 +1,527 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{55A87E3C-EBF0-4551-BE4F-A6E02FCF1473}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ComputersShop.My.MyApplication</StartupObject>
+    <RootNamespace>ComputersShop</RootNamespace>
+    <AssemblyName>ComputersShop</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ComputersShop.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ComputersShop.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Billing.Designer.vb">
+      <DependentUpon>Billing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Billing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComputersShopSALESREPORTDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ComputersShopSALESREPORTDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerReportDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomerReportDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ComputersShopDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ComputersShopDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ComputersShopDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ComputersShopDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="From Design\Customer.Designer.vb">
+      <DependentUpon>Customer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="From Design\Customer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\CustomerDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomerDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\CustomerRepoertsaleDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomerRepoertsaleDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerReportSale.Designer.vb">
+      <DependentUpon>CustomerReportSale.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerReportSale.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\CustomersDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomersDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="From Design\Employee.Designer.vb">
+      <DependentUpon>Employee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="From Design\Employee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="From Design\Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="From Design\Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="From Design\Purchase.Designer.vb">
+      <DependentUpon>Purchase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="From Design\Purchase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseReport.Designer.vb">
+      <DependentUpon>PurchaseReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\PurchaseReportSalelDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PurchaseReportSalelDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="From Design\Registration.Designer.vb">
+      <DependentUpon>Registration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="From Design\Registration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\PurchaseReportSalelDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PurchaseReportSalelDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="From Design\Sales.Designer.vb">
+      <DependentUpon>Sales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="From Design\Sales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\SalesCustomerReportNewDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalesCustomerReportNewDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\SalesPurchaseReportDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalesPurchaseReportDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\SalesReportsDataSEt.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalesReportsDataSEt.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="From Design\Splash Screen.Designer.vb">
+      <DependentUpon>Splash Screen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="From Design\Splash Screen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesReportsForBillDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalesReportsForBillDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Selling Report.Designer.vb">
+      <DependentUpon>Selling Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Selling Report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VendorReport.Designer.vb">
+      <DependentUpon>VendorReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VendorReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\VendorReportDataSetNew.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VendorReportDataSetNew.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="From Design\Vendors.Designer.vb">
+      <DependentUpon>Vendors.vb</DependentUpon>
+    </Compile>
+    <Compile Include="From Design\Vendors.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Billing.resx">
+      <DependentUpon>Billing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="From Design\Customer.resx">
+      <DependentUpon>Customer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerReportSale.resx">
+      <DependentUpon>CustomerReportSale.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="From Design\Employee.resx">
+      <DependentUpon>Employee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="From Design\Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="From Design\Purchase.resx">
+      <DependentUpon>Purchase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseReport.resx">
+      <DependentUpon>PurchaseReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="From Design\Registration.resx">
+      <DependentUpon>Registration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="From Design\Sales.resx">
+      <DependentUpon>Sales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="From Design\Splash Screen.resx">
+      <DependentUpon>Splash Screen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Selling Report.resx">
+      <DependentUpon>Selling Report.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VendorReport.resx">
+      <DependentUpon>VendorReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="From Design\Vendors.resx">
+      <DependentUpon>Vendors.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="ComputersShopSALESREPORTDataSet2.xsc">
+      <DependentUpon>ComputersShopSALESREPORTDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ComputersShopSALESREPORTDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ComputersShopSALESREPORTDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ComputersShopSALESREPORTDataSet2.xss">
+      <DependentUpon>ComputersShopSALESREPORTDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="CustomerReportDataSet.xsc">
+      <DependentUpon>CustomerReportDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CustomerReportDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CustomerReportDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CustomerReportDataSet.xss">
+      <DependentUpon>CustomerReportDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="Reports\ComputersShopDataSet.xsc">
+      <DependentUpon>ComputersShopDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\ComputersShopDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ComputersShopDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Reports\ComputersShopDataSet.xss">
+      <DependentUpon>ComputersShopDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\ComputersShopDataSet1.xsc">
+      <DependentUpon>ComputersShopDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\ComputersShopDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ComputersShopDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Reports\ComputersShopDataSet1.xss">
+      <DependentUpon>ComputersShopDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\CustomerDataSet2.xsc">
+      <DependentUpon>CustomerDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\CustomerDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CustomerDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Reports\CustomerDataSet2.xss">
+      <DependentUpon>CustomerDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\CustomerRepoertsaleDataSet.xsc">
+      <DependentUpon>CustomerRepoertsaleDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\CustomerRepoertsaleDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CustomerRepoertsaleDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Reports\CustomerRepoertsaleDataSet.xss">
+      <DependentUpon>CustomerRepoertsaleDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\CustomersDataSet2.xsc">
+      <DependentUpon>CustomersDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\CustomersDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CustomersDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Reports\CustomersDataSet2.xss">
+      <DependentUpon>CustomersDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Reports\PurchaseReportSalelDataSet.xsc">
+      <DependentUpon>PurchaseReportSalelDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\PurchaseReportSalelDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>PurchaseReportSalelDataSet1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Reports\PurchaseReportSalelDataSet.xss">
+      <DependentUpon>PurchaseReportSalelDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\SalesCustomerReportNewDataSet.xsc">
+      <DependentUpon>SalesCustomerReportNewDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\SalesCustomerReportNewDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalesCustomerReportNewDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Reports\SalesCustomerReportNewDataSet.xss">
+      <DependentUpon>SalesCustomerReportNewDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\SalesPurchaseReportDataSet.xsc">
+      <DependentUpon>SalesPurchaseReportDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\SalesPurchaseReportDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalesPurchaseReportDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Reports\SalesPurchaseReportDataSet.xss">
+      <DependentUpon>SalesPurchaseReportDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\SalesReportsDataSEt.xsc">
+      <DependentUpon>SalesReportsDataSEt.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\SalesReportsDataSEt.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalesReportsDataSEt.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Reports\SalesReportsDataSEt.xss">
+      <DependentUpon>SalesReportsDataSEt.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\VendorReportDataSetNew.xsc">
+      <DependentUpon>VendorReportDataSetNew.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\VendorReportDataSetNew.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>VendorReportDataSetNew.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Reports\VendorReportDataSetNew.xss">
+      <DependentUpon>VendorReportDataSetNew.xsd</DependentUpon>
+    </None>
+    <None Include="SalesReportsForBillDataSet.xsc">
+      <DependentUpon>SalesReportsForBillDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SalesReportsForBillDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalesReportsForBillDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SalesReportsForBillDataSet.xss">
+      <DependentUpon>SalesReportsForBillDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ComputersShop.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ComputersShop_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>ComputersShop.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

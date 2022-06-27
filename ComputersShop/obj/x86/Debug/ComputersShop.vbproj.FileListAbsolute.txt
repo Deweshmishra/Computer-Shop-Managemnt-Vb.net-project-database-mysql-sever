@@ -1,0 +1,51 @@
+D:\ComputerShop\ComputersShop\ComputersShop\ComputersShop\bin\Debug\ComputersShop.exe
+D:\ComputerShop\ComputersShop\ComputersShop\ComputersShop\bin\Debug\ComputersShop.pdb
+D:\ComputerShop\ComputersShop\ComputersShop\ComputersShop\bin\Debug\ComputersShop.xml
+D:\ComputerShop\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.Resources.resources
+D:\ComputerShop\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.vbproj.GenerateResource.Cache
+D:\ComputerShop\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.exe
+D:\ComputerShop\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.xml
+D:\ComputerShop\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.pdb
+D:\ComputerShop\ComputersShop\ComputersShop\ComputersShop\bin\Debug\ComputersShop.mdf
+D:\ComputerShop\ComputersShop\ComputersShop\ComputersShop\bin\Debug\ComputersShop_log.ldf
+D:\ComputerShop\ComputersShop\ComputersShop\ComputersShop\bin\Debug\ComputersShop.exe.config
+D:\ComputerShop\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.Login.resources
+D:\ComputerShop\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.MainForm.resources
+D:\ComputerShop\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.Registration.resources
+D:\ComputerShop\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.Employee.resources
+D:\ComputerShop\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.Vendors.resources
+D:\ComputerShop\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.VendorReport.resources
+D:\ComputerShop\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.Purchase.resources
+D:\ComputerShop\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.Customer.resources
+D:\ComputerShop\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.Sales.resources
+D:\ComputerShop\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.PurchaseReport.resources
+D:\ComputerShop\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.CustomerReportSale.resources
+D:\Dewesh Mishra\ComputersShop\ComputersShop\ComputersShop\bin\Debug\ComputersShop.exe.config
+D:\Dewesh Mishra\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.exe
+D:\Dewesh Mishra\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.xml
+D:\Dewesh Mishra\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.pdb
+D:\Dewesh Mishra\ComputersShop\ComputersShop\ComputersShop\bin\Debug\ComputersShop.mdf
+D:\Dewesh Mishra\ComputersShop\ComputersShop\ComputersShop\bin\Debug\ComputersShop_log.ldf
+D:\Dewesh Mishra\ComputersShop\ComputersShop\ComputersShop\bin\Debug\ComputersShop.exe
+D:\Dewesh Mishra\ComputersShop\ComputersShop\ComputersShop\bin\Debug\ComputersShop.pdb
+D:\Dewesh Mishra\ComputersShop\ComputersShop\ComputersShop\bin\Debug\ComputersShop.xml
+D:\Dewesh Mishra\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.Customer.resources
+D:\Dewesh Mishra\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.CustomerReportSale.resources
+D:\Dewesh Mishra\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.Employee.resources
+D:\Dewesh Mishra\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.Login.resources
+D:\Dewesh Mishra\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.MainForm.resources
+D:\Dewesh Mishra\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.Resources.resources
+D:\Dewesh Mishra\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.Purchase.resources
+D:\Dewesh Mishra\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.PurchaseReport.resources
+D:\Dewesh Mishra\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.Registration.resources
+D:\Dewesh Mishra\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.Sales.resources
+D:\Dewesh Mishra\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.SplashScreen1.resources
+D:\Dewesh Mishra\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.VendorReport.resources
+D:\Dewesh Mishra\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.Vendors.resources
+D:\Dewesh Mishra\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.vbproj.GenerateResource.Cache
+D:\ComputerShop\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.Splash_Screen.resources
+D:\ComputerShop\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.vbprojResolveAssemblyReference.cache
+D:\ComputerShop\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.Billing.resources
+D:\ComputerShop\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\ComputersShop.Selling_Report.resources
+D:\ComputerShop\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\RdlCompile.cache
+D:\ComputerShop\ComputersShop\ComputersShop\ComputersShop\obj\x86\Debug\RdlCompile.compiled
